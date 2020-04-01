@@ -21,4 +21,6 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^index/', views.index),
     url(r'^event_manage/',views.event_manage),
+    url(r'^accounts/', views.index),
+    url(r'^login/', views.index),
 ]
